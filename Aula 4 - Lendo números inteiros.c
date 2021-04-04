@@ -4,7 +4,7 @@
 int main(){
  int valor, valor2;
 
- valor = 50;
+ valor = 40;
 
  printf("Digite um valor inteiro: ");
  scanf("%d", &valor);
