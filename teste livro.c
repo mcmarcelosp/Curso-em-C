@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* 1.3 Dadas as medidas de uma sala em metros (comprimento e largura), informe a sua área em metros quadrados.*/
+
+int main(void){
+    float C, L, A;
+
+    printf("Medidas? ");
+    scanf("%f %f", &L, &C);
+
+    A = C*L;
+
+    printf("Area = %.1f\n", A);
+}
+
 
 
 
