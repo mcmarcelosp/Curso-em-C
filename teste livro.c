@@ -1,7 +1,53 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* 1.3 Dadas as medidas de uma sala em metros (comprimento e largura), informe a sua área em metros quadrados.*/
+/* Dados o valor da compra e o percentual de desconto, calcule o valor a ser pago. Considere que o percentual de desconto 
+é um número real entre 0 e 1. 
+
+int main(void) {
+    float c, d, p;
+
+    printf("Digite o valor da compra: ");
+    scanf("%f", &c);
+
+    printf("Digite o valor do desconto: ");
+    scanf("%f", &d);
+
+    p =  c - p * d;
+    
+    printf("Pagamento = %.2f\n", p);
+
+    return 0;
+    
+    }
+
+*/
+
+
+
+/*1.4 Dados um salário e um percentual de reajuste, calcule o salário reajustado. Considere que o percentual de reajuste é dado 
+por um número real entre 0 e 1. Por exemplo, se o reajuste for de 15%, o usuário deve digitar o número 0.15. 
+
+int main(void) {
+    float s, r, n;
+
+    printf("Digite o seu Salario: ");
+    scanf("%f", &s);
+    printf("Qual foi o Reajuste? ");
+    scanf("%f", &r);
+
+    n = s + s*r;
+
+    printf("Novo salario = %.2f\n", n);
+}
+
+*/
+
+
+
+
+
+/* 1.3 Dadas as medidas de uma sala em metros (comprimento e largura), informe a sua área em metros quadrados.
 
 int main(void){
     float C, L, A;
@@ -14,7 +60,7 @@ int main(void){
     printf("Area = %.1f\n", A);
 }
 
-
+*/
 
 
 
