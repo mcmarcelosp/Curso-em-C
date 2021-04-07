@@ -1,7 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Dados o valor da compra e o percentual de desconto, calcule o valor a ser pago. Considere que o percentual de desconto 
+
+/* Dados um valor em real e a cotação do dólar, converta esse valor em dólares */
+
+int main (void){
+    float r, c, d;
+
+    printf("Valor R$? ");
+    scanf("%f", &r);
+
+    printf("Cotacao? ");
+    scanf("%f", &c);
+
+    d = r/c;
+
+    printf("Valor U$$ = %.2f\n", d);
+
+    return 0;
+}
+
+
+
+/*1.5 Dados o valor da compra e o percentual de desconto, calcule o valor a ser pago. Considere que o percentual de desconto 
 é um número real entre 0 e 1. 
 
 int main(void) {
