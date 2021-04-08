@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-/* Dados um valor em real e a cotação do dólar, converta esse valor em dólares */
+/* 1.6 Dados um valor em real e a cotação do dólar, converta esse valor em dólares */
 
 int main (void){
     float r, c, d;
