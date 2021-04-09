@@ -2,24 +2,47 @@
 #include <stdlib.h>
 
 
-/* 1.6 Dados um valor em real e a cotação do dólar, converta esse valor em dólares */
+/* 1.6 Dadas as medidas de uma sala em metros(comprimento e largura), bem como o preço do metro quadrado de carpete, informe
+o custo total para forrar o piso da sala */
 
 int main (void){
-    float r, c, d;
+float c, l, p, t;
 
-    printf("Valor R$? ");
-    scanf("%f", &r);
+printf("Digite o Comprimento: ");
+scanf("%f", &c);
 
-    printf("Cotacao? ");
-    scanf("%f", &c);
+printf("Digite a Largura: ");
+scanf("%f", &l);
 
-    d = r/c;
+printf("Digite o preco: ");
+scanf("%f", &p);
 
-    printf("Valor U$$ = %.2f\n", d);
+
+
+t = c * l * p;
+
+printf("O custo do carpete: %.2f\n", t);
+
 
     return 0;
 }
 
+
+
+
+
+
+
+/* 1.6 Dados um valor em real e a cotação do dólar, converta esse valor em dólares 
+
+int main (void){
+
+
+
+    return 0;
+}
+
+*/
 
 
 /*1.5 Dados o valor da compra e o percentual de desconto, calcule o valor a ser pago. Considere que o percentual de desconto 
