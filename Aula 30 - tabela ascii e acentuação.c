@@ -14,7 +14,7 @@ int main (void){
 
     setlocale(LC_ALL, "");
    
-      printf("caÃ§apa\n");
+      printf("alçapão\n");
 
     return 0;
 
