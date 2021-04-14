@@ -75,3 +75,52 @@ int main() {
  */  
 
 
+/* 5 - Uma empresa contrata um encanador a R$45,00 por dia. Faça um programa que solicite o número de dias trabalhados pelo encanador
+e imprima a quantia liquida que deverá ser paga, sabendo que são descontados 8% para o imposto de renda. 
+
+int main () {
+  float DiaUteis,  ValorPago, ImpostodeRenda;
+
+  printf("Digite o número de dias trabalhados: ");
+  scanf ("%f", &DiaUteis);
+
+  ValorPago = DiaUteis * 45;
+  ImpostodeRenda = ValorPago * 8/100;
+  ValorPago = ValorPago - ImpostodeRenda;
+  
+  printf("O Total a receber R$: %.2f\nDesconto R$:%.2f", ValorPago, ImpostodeRenda);
+
+  return 0;
+
+}
+*/
+
+
+/*6 - Crie um programa em C que permita fazer a conversão cambial entre Reais e Dólares. Considere
+como taxa de câmbio US$1,0 = R$5,30. Leia um valor em Reais e mostre o correspondente em
+Dólares. 
+
+int main (){
+
+  float dolar, reais;
+
+  printf("Digite o valor em Reais: ");
+  scanf("%f", &reais);
+
+  dolar = reais / 5,30;
+
+  printf("Você possui:  $%.2f dolares", dolar);
+
+  return 0;
+
+}
+
+*/
+
+/* Faça um programa para ler do teclado uma quantidade de segundos e imprimir na tela a conversão para horas, minutos e segundos*/
+
+
+int main (){
+  int segundos, minutos, horas;
+  printf("Digite os segundos")
+}
