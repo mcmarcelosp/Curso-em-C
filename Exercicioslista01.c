@@ -117,10 +117,24 @@ int main (){
 
 */
 
-/* Faça um programa para ler do teclado uma quantidade de segundos e imprimir na tela a conversão para horas, minutos e segundos*/
-
+/* Faça um programa para ler do teclado uma quantidade de segundos e imprimir na tela a conversão para horas, 
+minutos e segundos 
 
 int main (){
-  int segundos, minutos, horas;
-  printf("Digite os segundos")
+  int segundos, h, m, s, resto;
+  
+  printf("Digite uma quantidade de segundos: ");
+  scanf("%d", &segundos);
+  // 3672 segundos em uma hora
+
+  h = segundos / 3600;
+  resto = segundos % 3600;
+  m = resto / 60;
+  s = resto % 60;
+  printf("%d:%d:%d\n", h, m, s);
+
+  return 0;
+
 }
+
+*/
